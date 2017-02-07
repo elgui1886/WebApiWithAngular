@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00BD29A2-ADB5-4D6A-91CE-611E71C88C00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8754F10-1A03-4D84-8346-5EDA6320E18A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApiWithAngular", "src\WebApiWithAngular\WebApiWithAngular.xproj", "{1DF3BBA9-C629-478E-A3EB-C9518EB6A136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6", "EF6\EF6.csproj", "{5F1A6D46-2BA8-423A-8C6D-AA12B6C977D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF3BBA9-C629-478E-A3EB-C9518EB6A136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF3BBA9-C629-478E-A3EB-C9518EB6A136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF3BBA9-C629-478E-A3EB-C9518EB6A136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF3BBA9-C629-478E-A3EB-C9518EB6A136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1A6D46-2BA8-423A-8C6D-AA12B6C977D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1A6D46-2BA8-423A-8C6D-AA12B6C977D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1A6D46-2BA8-423A-8C6D-AA12B6C977D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1A6D46-2BA8-423A-8C6D-AA12B6C977D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DF3BBA9-C629-478E-A3EB-C9518EB6A136} = {00BD29A2-ADB5-4D6A-91CE-611E71C88C00}
+	EndGlobalSection
+EndGlobal
