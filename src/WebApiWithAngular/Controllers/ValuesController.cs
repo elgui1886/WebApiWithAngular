@@ -20,7 +20,7 @@ namespace WebApiWithAngular.Controllers
             _context = context;
         }
         // GET api/values
-       [HttpGet]
+        [HttpGet]
         public void Index()
         {
             Response.Redirect("..\\Index.html");

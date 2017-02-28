@@ -42,7 +42,11 @@ namespace WebApiWithAngular
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseMvc();           
+            app.UseMvc();
+            DefaultFilesOptions options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("Index.html");
+            app.UseDefaultFiles();
             app.UseStaticFiles();
         }
     }
